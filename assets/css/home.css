@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 15px;
+  }
+  .heading{
+    text-align: center;
+    color: #555;
+  }
+  .contact {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* display: flex; */
+    align-items: center;
+  }
+  .contact:hover{
+    background-color: #c5c6c7;
+  }
+  .contact img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+ 
+  h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  p {
+    margin: 0;
+    color: #555;
+    font-size: 18px;
+  }
+  /* Add this CSS to your <style> section or a separate .css file */
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .delete-button:hover{
+    transform: scale(1.1);
+  }
+  
